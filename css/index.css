@@ -1,0 +1,102 @@
+/*头部标签*/
+body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, form, fieldset, legend, input, label, span {
+    margin: 0;
+    padding: 0;
+    font-family: "微软雅黑";
+}
+body {
+	background: #F2F4F3;
+    color: #333;
+}
+.fl {
+    float: left;
+}
+.fr {
+    float: right;
+}
+img {
+    border: 0;
+    vertical-align: middle;
+}
+.center {
+    text-align: center;
+}
+.fz16 {
+    font-size: 16px;
+}
+.wauto {
+    width: 100%;
+    height: auto;
+}
+.nav-title p:nth-child(1) {
+    width: 55%;
+    text-align: right;
+    font-size: 18px;
+}
+/*内容*/
+.container {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 44px;
+    padding: 0;
+    padding-bottom: 55px;
+    box-sizing: border-box;
+}
+.container .item {
+	background-color: #fff;
+	padding: 10px 15px;
+	box-sizing: border-box;
+    margin-top: 1px;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+.container .item li {
+	padding: 0 15px;
+    background-color: #fff;
+    margin: 3px auto;
+    overflow: hidden;
+    color: #333;
+}
+.container .item li .text-answer{
+    line-height: 25px;
+    padding: 10px 0;
+}
+.container .item li .text-answer .name{
+    padding-right: 10px;
+}
+.container .item li .voice {
+    overflow: hidden;
+    padding: 10px 0;
+    box-sizing: border-box;
+}
+.container .item li .voice .voicecon{
+    width: 70%;
+    height: 45px;
+    line-height: 40px;
+    color: #fff;
+    padding: 0 15px;
+    box-sizing: border-box;
+    background: #21EB9C;
+    border-radius: 25px;
+    position: relative;
+}
+
+progress{
+    color:#fff;
+    background:#21EB9C;
+    border-radius: 150px;
+    width: 100%;
+    display: inline-block;
+    position: relative;
+    bottom: 25px;
+    height: 3px;
+}
+progress::-webkit-progress-bar{     
+    background-color: #21EB9C;
+    border-radius: 0.2rem;
+}
+progress::-webkit-progress-value{
+    background: orange;
+    border-radius: 0.2rem;
+}
